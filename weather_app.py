@@ -96,7 +96,8 @@ def timestamp_to_time(timestamp, format='%Y-%m-%d %H:%M:%S'):
 
 if __name__ == "__main__":
     #personal api key obained from openweathermap
-    api_key = "3dc860e03ea9c272cd690bdd132ef09d"
+    # please use your personalised api key from openweathermap
+    # api_key = "3dc860e03ea9c272cd690bdd132ef09d"
 
     while True:
         location_type = input("Enter 'city' or 'zip' to specify location type (or 'exit' to quit): ")
